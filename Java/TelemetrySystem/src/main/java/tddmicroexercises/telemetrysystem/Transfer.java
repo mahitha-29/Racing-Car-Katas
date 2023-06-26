@@ -2,7 +2,7 @@ package tddmicroexercises.telemetrysystem;
 
 import java.util.Random;
 
-public class Transfer implements SendRecieve{
+public class Transfer implements TransferInterface {
 
     public static final String DIAGNOSTIC_MESSAGE = "AT#UD";
 

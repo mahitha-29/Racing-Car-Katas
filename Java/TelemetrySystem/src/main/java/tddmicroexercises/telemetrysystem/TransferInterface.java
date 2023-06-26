@@ -1,4 +1,6 @@
 package tddmicroexercises.telemetrysystem;
 
-public interface TransferInterface extends SendRecieve{
+public interface TransferInterface {
+    void send(String message);
+    String receive();
 }

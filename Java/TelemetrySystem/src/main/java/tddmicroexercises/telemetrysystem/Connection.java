@@ -2,7 +2,7 @@ package tddmicroexercises.telemetrysystem;
 
 import java.util.Random;
 
-public class Connection implements Connections{
+public class Connection implements ConnectionInterface {
 
     private Boolean onlineStatus;
 

@@ -37,4 +37,7 @@ public class TelemetryClient implements TelemetryClientInterface
     public void send(String message) {
         transfer.send(message);
     }
+
+
+
 }

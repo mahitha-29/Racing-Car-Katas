@@ -1,4 +1,8 @@
 package tddmicroexercises.telemetrysystem;
 
-public interface ConnectionInterface extends Connections{
+public interface ConnectionInterface {
+
+    void disconnect();
+
+    void connect(String telemetryServerConnectionString);
 }
